@@ -1,0 +1,157 @@
+
+
+.title::before
+{
+	background-color: rgb(56, 29, 1);
+	display: block;
+	transform: translate(0, 204px);
+	content: "";
+	width:101.85%;
+	height:11px;
+	margin-left: -35px;
+	margin-right: 100px;
+}
+.title
+{
+	font-family: Arial;
+	font-size: 100px;
+	font-style: italic;
+	margin-left: 20px;
+}
+.uppersection
+{
+	background-color: lightpink;
+	padding:0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+a.link
+{
+	font-family: Arial;
+	font-size: 50px;
+	transform: translate(20px,-35px) skewX(-11deg);
+	text-decoration: none;
+	background-color: rgb(89,46,0);
+	display:inline-block;
+	border:2px solid rgb(56, 29, 1);
+	color:white;
+	margin-right: -5px;
+	text-align: center;
+	padding: 1px 3px 1px 3px;
+}
+a.link:hover
+{
+	background-color: rgb(130, 87, 42);
+	transition:0s;
+}
+.lowersection
+{
+	background-color: lightyellow;
+	padding:0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+button.link
+{
+	font-family: Arial;
+	font-size: 50px;
+	transform: translate(20px,-35px) skewX(-11deg);
+	text-decoration: none;
+	background-color: rgb(89,46,0);
+	display:inline-block;
+	border:2px solid rgb(56, 29, 1);
+	color:white;
+	margin-right: -5px;
+	text-align: center;
+	padding: 1px 3px 1px 3px;
+}
+button.link:hover
+{
+	transition:0s;
+	background-color: rgb(130, 87, 42);
+	transform: translate(8px,-35px) skewX(-11deg);
+}
+
+.socialcont a 
+{
+	font-family: Arial;
+	font-size: 23px;
+	transform: translate(-7px,10px);
+	text-decoration: none;
+	background-color: rgb(130, 87, 42);
+	display:none;
+	border:2px solid rgb(56, 29, 1);
+	color:white;
+	margin-right: -15px;
+	text-align: center ;
+	padding: -1px -3px -2px -3px;
+}
+button.link:hover .socialcont a
+{
+	transition:.5s;
+	display:block;
+}
+.socialcont a:hover
+{
+	background-color: rgb(89,46,0);
+}
+.musiccont a 
+{
+	font-family: Arial;
+	font-size: 23px;
+	transform: translate(-7px,10px);
+	text-decoration: none;
+	background-color: rgb(130, 87, 42);
+	display:none;
+	border:2px solid rgb(56, 29, 1);
+	color:white;
+	margin-right: -15px;
+	text-align: center ;
+	padding: -1px -3px -2px -3px;
+}
+button.link:hover .musiccont a
+{
+	transition:.5s;
+	display:block;
+
+}
+.musiccont a:hover
+{
+	background-color: rgb(89,46,0);
+}
+button.link.ml:hover 
+{
+	transform: translate(11px,-35px) skewX(-11deg);	
+}
+
+/*MAIN ENDS*/
+/*BIO BEGINS*/
+
+.bio h1
+{
+	font-family: Arial;
+	font-size: 50px;
+	margin-left: 100px;
+}
+.profile
+{
+	margin-left: 110px;	
+	border-radius: 50px;
+	height: 300px;
+	zoom:150%;
+}
+.DDescription
+{
+	background-color: lightpink;
+	font-size: 29px;
+	display: block;
+	font-family: Arial;
+	margin-left: 700px;
+	width: 1200px;
+	padding-right: 7px;
+	padding-left: 50px;
+	transform: translate(-70px, -470px) skew(-11deg,0deg);
+}
